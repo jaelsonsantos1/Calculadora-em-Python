@@ -420,11 +420,12 @@ class Ui_MainWindow(object):
 "	color: rgb(139, 139, 209);\n"
 "	border: 3px solid rgb(35, 35, 35);\n"
 "	border-radius: 20px;\n"
-"	padding-left: 15px;\n"
+"	padding-right: 15px;\n"
 "}")
         self.tela.setMaxLength(10)
         self.tela.setDragEnabled(False)
         self.tela.setReadOnly(True)
+        self.tela.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
 
         self.gridLayout.addWidget(self.tela, 0, 0, 1, 1)
 
