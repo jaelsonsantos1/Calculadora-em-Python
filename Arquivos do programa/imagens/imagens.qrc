@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>download.png</file>
+    <file>calculator_icon-icons.com_53152.ico</file>
+    <file>insta.jpg</file>
+  </qresource>
+</RCC>
