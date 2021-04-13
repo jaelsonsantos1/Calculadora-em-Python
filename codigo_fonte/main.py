@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*- --noconsole
-
 import sys
 from PySide2 import QtCore, QtGui, QtWidgets
-from untitled import Ui_MainWindow
+from Janela import Janela_calculadora
 
-class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, Janela_calculadora):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setupUi(self)
